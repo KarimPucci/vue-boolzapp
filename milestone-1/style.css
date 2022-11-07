@@ -11,6 +11,7 @@ body{
 
 img {
     width: 100%;
+    object-fit: cover;
 }
 
 .wrapper {
@@ -41,12 +42,6 @@ img {
 
 .image-name:hover {
     cursor: pointer;
-}
-
-.image-name .image img {
-    object-fit: cover;
-    width: 100%;
-    height: 105%;
 }
 
 .name-user {
@@ -114,6 +109,31 @@ img {
 }
 
 .notification-text a {
-    font-size: 12px;
+    font-size: 10px;
     color: rgb(128, 128, 128);
+}
+
+.filter {
+    background-color: rgba(234, 234, 234, 0.4);
+    padding: 5px;
+}
+
+.filter-container {
+    background-color: white;
+    display: flex;
+    padding: 5px 10px;
+    border: 1px solid #aeaeae;
+}
+
+.icon-search {
+    color: #c6c4c4;
+}
+
+.input-search input {
+    width: 100%;
+    border: 0;
+}
+
+.input-search {
+    padding-left: 20px;
 }
