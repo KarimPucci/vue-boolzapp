@@ -3,3 +3,13 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+body{
+    background-color: rgb(146, 7, 253);
+    position: absolute;
+}
+
+.container{
+    width: 500px;
+    height: 600px;
+}
