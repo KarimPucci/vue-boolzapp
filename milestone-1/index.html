@@ -9,11 +9,47 @@
     <!-- Collegamento vue -->
     <script src="https://unpkg.com/vue@3"></script>
     <title>Boolzapp</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!-- CDN Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <img src="/img/img/mine.jpg" alt="">
+    <div id="wrapper" class="wrapper">
+
+        <!-- App -->
+        <div id="app">
+            <div class="column-contact">
+                <div class="container-user">
+                    <div class="image-name">
+                        <div class="image">
+                            <img src="/img/img/avatar_1.jpg" alt="">
+                        </div>
+                        <div class="name-user">User 1</div>
+                    </div>
+                    <!-- Icone -->
+                    <div class="icon-container">
+                        <i class="fa-solid fa-circle-notch"></i>
+                        <i class="fa-solid fa-message"></i>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <!-- Notifiche -->
+                <div class="notification-container">
+                    <div class="icon-notification">
+                        <i class="fa-solid fa-bell-slash"></i>
+                    </div>
+                    <div class="notification-text">
+                        <p>Ricevi notifiche di nuovi messaggi</p>
+                        <a href="#">Attiva notifiche desktop</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
 
     <!-- Collegamento js -->
     <script src="/milestone-1/script.js"></script>
