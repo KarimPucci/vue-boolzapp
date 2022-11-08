@@ -71,6 +71,7 @@ img {
     margin: auto;
     display: flex;
     height: calc(100vh - 100px);
+    outline: 2px solid black;
 }
 
 .column-contact {
@@ -85,6 +86,8 @@ img {
 .column-chat {
     width: 70%;
     height: 100%;
+    outline: 2px solid black;
+    background-image: url(/img/img/mine.jpg);
 }
 
 .notification-container {
