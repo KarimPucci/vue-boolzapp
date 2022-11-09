@@ -58,6 +58,11 @@ body{
     justify-content: space-around;
 }
 
+.icon-container2{
+    position: relative;
+    left: 550px;
+}
+
 .icon-container i {
     padding-left: 20px;
     font-size: 20px;
@@ -65,7 +70,18 @@ body{
     cursor: pointer;
 }
 
+.icon-container2 i{
+    padding-left: 20px;
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.5);
+    cursor: pointer;
+}
+
 .icon-container i:hover {
+    color: rgba(128, 128, 128, 1);
+}
+
+.icon-container2 i:hover {
     color: rgba(128, 128, 128, 1);
 }
 
